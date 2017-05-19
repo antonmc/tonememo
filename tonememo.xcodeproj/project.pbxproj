@@ -21,6 +21,11 @@
 		22788FB91ECF1CC1007736EF /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22788FB81ECF1CC1007736EF /* ExtensionDelegate.swift */; };
 		22788FBB1ECF1CC1007736EF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22788FBA1ECF1CC1007736EF /* NotificationController.swift */; };
 		22788FBD1ECF1CC1007736EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22788FBC1ECF1CC1007736EF /* Assets.xcassets */; };
+		3CF75E696C90B58439A1CA32 /* Pods_tonememo_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16CA7A4A971AFF60627E1F34 /* Pods_tonememo_WatchKit_App.framework */; };
+		7990A94D1ECF941000BFD541 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7990A94C1ECF941000BFD541 /* GoogleService-Info.plist */; };
+		A98557DAF1CDB274516F34CF /* Pods_tonememoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7418DEA74720812C79002D0B /* Pods_tonememoTests.framework */; };
+		CEE517B00F4C9B18934BD79B /* Pods_tonememo_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C272F69DC6EAB10305750C /* Pods_tonememo_WatchKit_Extension.framework */; };
+		D421C6833629395E3A77FD00 /* Pods_tonememo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F4D72B77DA38EB8919635B /* Pods_tonememo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +78,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		16CA7A4A971AFF60627E1F34 /* Pods_tonememo_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tonememo_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22788F831ECF1CC0007736EF /* tonememo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tonememo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22788F861ECF1CC0007736EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22788F881ECF1CC0007736EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +100,18 @@
 		22788FBA1ECF1CC1007736EF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		22788FBC1ECF1CC1007736EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22788FBE1ECF1CC1007736EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4072BCE8B30F561801303CB0 /* Pods-tonememo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tonememo.release.xcconfig"; path = "Pods/Target Support Files/Pods-tonememo/Pods-tonememo.release.xcconfig"; sourceTree = "<group>"; };
+		69ADCA2B5128BFF1C0440448 /* Pods-tonememo WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tonememo WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-tonememo WatchKit App/Pods-tonememo WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		6B2755F9FBA886A5816FEB29 /* Pods-tonememo WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tonememo WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tonememo WatchKit Extension/Pods-tonememo WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		6D59954D122C2BB5315A0CF3 /* Pods-tonememoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tonememoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tonememoTests/Pods-tonememoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7343C808A44384B2802313A0 /* Pods-tonememo WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tonememo WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tonememo WatchKit App/Pods-tonememo WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		7418DEA74720812C79002D0B /* Pods_tonememoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tonememoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7990A94C1ECF941000BFD541 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7FAD49F30899C17F925DC01B /* Pods-tonememoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tonememoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tonememoTests/Pods-tonememoTests.release.xcconfig"; sourceTree = "<group>"; };
+		93F4D72B77DA38EB8919635B /* Pods_tonememo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tonememo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E784E8C01AB9AFC0B1897CD /* Pods-tonememo WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tonememo WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-tonememo WatchKit Extension/Pods-tonememo WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		E8C272F69DC6EAB10305750C /* Pods_tonememo_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tonememo_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5C9F37EEC0E8AB144F85EA /* Pods-tonememo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tonememo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tonememo/Pods-tonememo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D421C6833629395E3A77FD00 /* Pods_tonememo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A98557DAF1CDB274516F34CF /* Pods_tonememoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +135,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE517B00F4C9B18934BD79B /* Pods_tonememo_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B2A945E4E4AFEF68FFE55A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF75E696C90B58439A1CA32 /* Pods_tonememo_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +158,8 @@
 				22788FA41ECF1CC0007736EF /* tonememo WatchKit App */,
 				22788FB31ECF1CC1007736EF /* tonememo WatchKit Extension */,
 				22788F841ECF1CC0007736EF /* Products */,
+				C6441A0C0BC32218C2965E11 /* Pods */,
+				FEE592ADD006ACF3B4317D29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +183,7 @@
 				22788F8D1ECF1CC0007736EF /* Assets.xcassets */,
 				22788F8F1ECF1CC0007736EF /* LaunchScreen.storyboard */,
 				22788F921ECF1CC0007736EF /* Info.plist */,
+				7990A94C1ECF941000BFD541 /* GoogleService-Info.plist */,
 			);
 			path = tonememo;
 			sourceTree = "<group>";
@@ -196,6 +228,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C6441A0C0BC32218C2965E11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF5C9F37EEC0E8AB144F85EA /* Pods-tonememo.debug.xcconfig */,
+				4072BCE8B30F561801303CB0 /* Pods-tonememo.release.xcconfig */,
+				7343C808A44384B2802313A0 /* Pods-tonememo WatchKit App.debug.xcconfig */,
+				69ADCA2B5128BFF1C0440448 /* Pods-tonememo WatchKit App.release.xcconfig */,
+				6B2755F9FBA886A5816FEB29 /* Pods-tonememo WatchKit Extension.debug.xcconfig */,
+				9E784E8C01AB9AFC0B1897CD /* Pods-tonememo WatchKit Extension.release.xcconfig */,
+				6D59954D122C2BB5315A0CF3 /* Pods-tonememoTests.debug.xcconfig */,
+				7FAD49F30899C17F925DC01B /* Pods-tonememoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEE592ADD006ACF3B4317D29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93F4D72B77DA38EB8919635B /* Pods_tonememo.framework */,
+				16CA7A4A971AFF60627E1F34 /* Pods_tonememo_WatchKit_App.framework */,
+				E8C272F69DC6EAB10305750C /* Pods_tonememo_WatchKit_Extension.framework */,
+				7418DEA74720812C79002D0B /* Pods_tonememoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -203,10 +261,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22788FC91ECF1CC1007736EF /* Build configuration list for PBXNativeTarget "tonememo" */;
 			buildPhases = (
+				03218DBB36CF293F17540D31 /* [CP] Check Pods Manifest.lock */,
 				22788F7F1ECF1CC0007736EF /* Sources */,
 				22788F801ECF1CC0007736EF /* Frameworks */,
 				22788F811ECF1CC0007736EF /* Resources */,
 				22788FC81ECF1CC1007736EF /* Embed Watch Content */,
+				B619E7FA942A138B82ECDD01 /* [CP] Embed Pods Frameworks */,
+				312FCA4BBC9561FA0E7EBC43 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22788FCC1ECF1CC1007736EF /* Build configuration list for PBXNativeTarget "tonememoTests" */;
 			buildPhases = (
+				CA4C52D74D7CE35842FA816F /* [CP] Check Pods Manifest.lock */,
 				22788F931ECF1CC0007736EF /* Sources */,
 				22788F941ECF1CC0007736EF /* Frameworks */,
 				22788F951ECF1CC0007736EF /* Resources */,
+				E3DD378E9DF3926B0478151B /* [CP] Embed Pods Frameworks */,
+				3FC55CB387D81E15B06E46FC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,8 +304,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22788FC51ECF1CC1007736EF /* Build configuration list for PBXNativeTarget "tonememo WatchKit App" */;
 			buildPhases = (
+				0915EFE9E3066F9CD007943F /* [CP] Check Pods Manifest.lock */,
 				22788F9E1ECF1CC0007736EF /* Resources */,
 				22788FC41ECF1CC1007736EF /* Embed App Extensions */,
+				E5B2A945E4E4AFEF68FFE55A /* Frameworks */,
+				79E44D9623C492B01065E960 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,9 +324,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22788FC11ECF1CC1007736EF /* Build configuration list for PBXNativeTarget "tonememo WatchKit Extension" */;
 			buildPhases = (
+				F5A14066A205BFED197D153D /* [CP] Check Pods Manifest.lock */,
 				22788FAB1ECF1CC1007736EF /* Sources */,
 				22788FAC1ECF1CC1007736EF /* Frameworks */,
 				22788FAD1ECF1CC1007736EF /* Resources */,
+				673656BA516C15308AA97D21 /* [CP] Embed Pods Frameworks */,
+				008615A67BFBCE748A09C1DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -327,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22788F911ECF1CC0007736EF /* LaunchScreen.storyboard in Resources */,
+				7990A94D1ECF941000BFD541 /* GoogleService-Info.plist in Resources */,
 				22788F8E1ECF1CC0007736EF /* Assets.xcassets in Resources */,
 				22788F8C1ECF1CC0007736EF /* Main.storyboard in Resources */,
 			);
@@ -357,6 +428,174 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		008615A67BFBCE748A09C1DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tonememo WatchKit Extension/Pods-tonememo WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		03218DBB36CF293F17540D31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0915EFE9E3066F9CD007943F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		312FCA4BBC9561FA0E7EBC43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tonememo/Pods-tonememo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FC55CB387D81E15B06E46FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tonememoTests/Pods-tonememoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		673656BA516C15308AA97D21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tonememo WatchKit Extension/Pods-tonememo WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79E44D9623C492B01065E960 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tonememo WatchKit App/Pods-tonememo WatchKit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B619E7FA942A138B82ECDD01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tonememo/Pods-tonememo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA4C52D74D7CE35842FA816F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3DD378E9DF3926B0478151B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tonememoTests/Pods-tonememoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5A14066A205BFED197D153D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22788F7F1ECF1CC0007736EF /* Sources */ = {
@@ -529,6 +768,7 @@
 		};
 		22788FC21ECF1CC1007736EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B2755F9FBA886A5816FEB29 /* Pods-tonememo WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				INFOPLIST_FILE = "tonememo WatchKit Extension/Info.plist";
@@ -545,6 +785,7 @@
 		};
 		22788FC31ECF1CC1007736EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E784E8C01AB9AFC0B1897CD /* Pods-tonememo WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				INFOPLIST_FILE = "tonememo WatchKit Extension/Info.plist";
@@ -561,6 +802,7 @@
 		};
 		22788FC61ECF1CC1007736EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7343C808A44384B2802313A0 /* Pods-tonememo WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -578,6 +820,7 @@
 		};
 		22788FC71ECF1CC1007736EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69ADCA2B5128BFF1C0440448 /* Pods-tonememo WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -595,6 +838,7 @@
 		};
 		22788FCA1ECF1CC1007736EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF5C9F37EEC0E8AB144F85EA /* Pods-tonememo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CT3Y8HLWZY;
@@ -608,6 +852,7 @@
 		};
 		22788FCB1ECF1CC1007736EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4072BCE8B30F561801303CB0 /* Pods-tonememo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CT3Y8HLWZY;
@@ -621,6 +866,7 @@
 		};
 		22788FCD1ECF1CC1007736EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D59954D122C2BB5315A0CF3 /* Pods-tonememoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -635,6 +881,7 @@
 		};
 		22788FCE1ECF1CC1007736EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FAD49F30899C17F925DC01B /* Pods-tonememoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -666,6 +913,7 @@
 				22788FC31ECF1CC1007736EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22788FC51ECF1CC1007736EF /* Build configuration list for PBXNativeTarget "tonememo WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -674,6 +922,7 @@
 				22788FC71ECF1CC1007736EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22788FC91ECF1CC1007736EF /* Build configuration list for PBXNativeTarget "tonememo" */ = {
 			isa = XCConfigurationList;
@@ -682,6 +931,7 @@
 				22788FCB1ECF1CC1007736EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22788FCC1ECF1CC1007736EF /* Build configuration list for PBXNativeTarget "tonememoTests" */ = {
 			isa = XCConfigurationList;
@@ -690,6 +940,7 @@
 				22788FCE1ECF1CC1007736EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
