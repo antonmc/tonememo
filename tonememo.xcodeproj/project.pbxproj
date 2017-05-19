@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22788F871ECF1CC0007736EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22788F861ECF1CC0007736EF /* AppDelegate.swift */; };
+		22788F891ECF1CC0007736EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22788F881ECF1CC0007736EF /* ViewController.swift */; };
+		22788F8C1ECF1CC0007736EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22788F8A1ECF1CC0007736EF /* Main.storyboard */; };
+		22788F8E1ECF1CC0007736EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22788F8D1ECF1CC0007736EF /* Assets.xcassets */; };
+		22788F911ECF1CC0007736EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22788F8F1ECF1CC0007736EF /* LaunchScreen.storyboard */; };
+		22788F9C1ECF1CC0007736EF /* tonememoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22788F9B1ECF1CC0007736EF /* tonememoTests.swift */; };
+		22788FA11ECF1CC0007736EF /* tonememo WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 22788FA01ECF1CC0007736EF /* tonememo WatchKit App.app */; };
+		22788FA71ECF1CC0007736EF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22788FA51ECF1CC0007736EF /* Interface.storyboard */; };
+		22788FA91ECF1CC0007736EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22788FA81ECF1CC0007736EF /* Assets.xcassets */; };
+		22788FB01ECF1CC1007736EF /* tonememo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 22788FAF1ECF1CC1007736EF /* tonememo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		22788FB71ECF1CC1007736EF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22788FB61ECF1CC1007736EF /* InterfaceController.swift */; };
+		22788FB91ECF1CC1007736EF /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22788FB81ECF1CC1007736EF /* ExtensionDelegate.swift */; };
+		22788FBB1ECF1CC1007736EF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22788FBA1ECF1CC1007736EF /* NotificationController.swift */; };
+		22788FBD1ECF1CC1007736EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22788FBC1ECF1CC1007736EF /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22788F981ECF1CC0007736EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22788F7B1ECF1CC0007736EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22788F821ECF1CC0007736EF;
+			remoteInfo = tonememo;
+		};
+		22788FA21ECF1CC0007736EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22788F7B1ECF1CC0007736EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22788F9F1ECF1CC0007736EF;
+			remoteInfo = "tonememo WatchKit App";
+		};
+		22788FB11ECF1CC1007736EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22788F7B1ECF1CC0007736EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22788FAE1ECF1CC1007736EF;
+			remoteInfo = "tonememo WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22788FC41ECF1CC1007736EF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				22788FB01ECF1CC1007736EF /* tonememo WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22788FC81ECF1CC1007736EF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				22788FA11ECF1CC0007736EF /* tonememo WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		22788F831ECF1CC0007736EF /* tonememo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tonememo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22788F861ECF1CC0007736EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22788F881ECF1CC0007736EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22788F8B1ECF1CC0007736EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22788F8D1ECF1CC0007736EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22788F901ECF1CC0007736EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22788F921ECF1CC0007736EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22788F971ECF1CC0007736EF /* tonememoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tonememoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22788F9B1ECF1CC0007736EF /* tonememoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tonememoTests.swift; sourceTree = "<group>"; };
+		22788F9D1ECF1CC0007736EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22788FA01ECF1CC0007736EF /* tonememo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tonememo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22788FA61ECF1CC0007736EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		22788FA81ECF1CC0007736EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22788FAA1ECF1CC0007736EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22788FAF1ECF1CC1007736EF /* tonememo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "tonememo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22788FB51ECF1CC1007736EF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		22788FB61ECF1CC1007736EF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		22788FB81ECF1CC1007736EF /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		22788FBA1ECF1CC1007736EF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		22788FBC1ECF1CC1007736EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22788FBE1ECF1CC1007736EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22788F801ECF1CC0007736EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22788F941ECF1CC0007736EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22788FAC1ECF1CC1007736EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22788F7A1ECF1CC0007736EF = {
+			isa = PBXGroup;
+			children = (
+				22788F851ECF1CC0007736EF /* tonememo */,
+				22788F9A1ECF1CC0007736EF /* tonememoTests */,
+				22788FA41ECF1CC0007736EF /* tonememo WatchKit App */,
+				22788FB31ECF1CC1007736EF /* tonememo WatchKit Extension */,
+				22788F841ECF1CC0007736EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22788F841ECF1CC0007736EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22788F831ECF1CC0007736EF /* tonememo.app */,
+				22788F971ECF1CC0007736EF /* tonememoTests.xctest */,
+				22788FA01ECF1CC0007736EF /* tonememo WatchKit App.app */,
+				22788FAF1ECF1CC1007736EF /* tonememo WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22788F851ECF1CC0007736EF /* tonememo */ = {
+			isa = PBXGroup;
+			children = (
+				22788F861ECF1CC0007736EF /* AppDelegate.swift */,
+				22788F881ECF1CC0007736EF /* ViewController.swift */,
+				22788F8A1ECF1CC0007736EF /* Main.storyboard */,
+				22788F8D1ECF1CC0007736EF /* Assets.xcassets */,
+				22788F8F1ECF1CC0007736EF /* LaunchScreen.storyboard */,
+				22788F921ECF1CC0007736EF /* Info.plist */,
+			);
+			path = tonememo;
+			sourceTree = "<group>";
+		};
+		22788F9A1ECF1CC0007736EF /* tonememoTests */ = {
+			isa = PBXGroup;
+			children = (
+				22788F9B1ECF1CC0007736EF /* tonememoTests.swift */,
+				22788F9D1ECF1CC0007736EF /* Info.plist */,
+			);
+			path = tonememoTests;
+			sourceTree = "<group>";
+		};
+		22788FA41ECF1CC0007736EF /* tonememo WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				22788FA51ECF1CC0007736EF /* Interface.storyboard */,
+				22788FA81ECF1CC0007736EF /* Assets.xcassets */,
+				22788FAA1ECF1CC0007736EF /* Info.plist */,
+			);
+			path = "tonememo WatchKit App";
+			sourceTree = "<group>";
+		};
+		22788FB31ECF1CC1007736EF /* tonememo WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				22788FB61ECF1CC1007736EF /* InterfaceController.swift */,
+				22788FB81ECF1CC1007736EF /* ExtensionDelegate.swift */,
+				22788FBA1ECF1CC1007736EF /* NotificationController.swift */,
+				22788FBC1ECF1CC1007736EF /* Assets.xcassets */,
+				22788FBE1ECF1CC1007736EF /* Info.plist */,
+				22788FB41ECF1CC1007736EF /* Supporting Files */,
+			);
+			path = "tonememo WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		22788FB41ECF1CC1007736EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22788FB51ECF1CC1007736EF /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22788F821ECF1CC0007736EF /* tonememo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22788FC91ECF1CC1007736EF /* Build configuration list for PBXNativeTarget "tonememo" */;
+			buildPhases = (
+				22788F7F1ECF1CC0007736EF /* Sources */,
+				22788F801ECF1CC0007736EF /* Frameworks */,
+				22788F811ECF1CC0007736EF /* Resources */,
+				22788FC81ECF1CC1007736EF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22788FA31ECF1CC0007736EF /* PBXTargetDependency */,
+			);
+			name = tonememo;
+			productName = tonememo;
+			productReference = 22788F831ECF1CC0007736EF /* tonememo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22788F961ECF1CC0007736EF /* tonememoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22788FCC1ECF1CC1007736EF /* Build configuration list for PBXNativeTarget "tonememoTests" */;
+			buildPhases = (
+				22788F931ECF1CC0007736EF /* Sources */,
+				22788F941ECF1CC0007736EF /* Frameworks */,
+				22788F951ECF1CC0007736EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22788F991ECF1CC0007736EF /* PBXTargetDependency */,
+			);
+			name = tonememoTests;
+			productName = tonememoTests;
+			productReference = 22788F971ECF1CC0007736EF /* tonememoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22788F9F1ECF1CC0007736EF /* tonememo WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22788FC51ECF1CC1007736EF /* Build configuration list for PBXNativeTarget "tonememo WatchKit App" */;
+			buildPhases = (
+				22788F9E1ECF1CC0007736EF /* Resources */,
+				22788FC41ECF1CC1007736EF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22788FB21ECF1CC1007736EF /* PBXTargetDependency */,
+			);
+			name = "tonememo WatchKit App";
+			productName = "tonememo WatchKit App";
+			productReference = 22788FA01ECF1CC0007736EF /* tonememo WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		22788FAE1ECF1CC1007736EF /* tonememo WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22788FC11ECF1CC1007736EF /* Build configuration list for PBXNativeTarget "tonememo WatchKit Extension" */;
+			buildPhases = (
+				22788FAB1ECF1CC1007736EF /* Sources */,
+				22788FAC1ECF1CC1007736EF /* Frameworks */,
+				22788FAD1ECF1CC1007736EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tonememo WatchKit Extension";
+			productName = "tonememo WatchKit Extension";
+			productReference = 22788FAF1ECF1CC1007736EF /* tonememo WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22788F7B1ECF1CC0007736EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Anton McConville";
+				TargetAttributes = {
+					22788F821ECF1CC0007736EF = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = CT3Y8HLWZY;
+						ProvisioningStyle = Automatic;
+					};
+					22788F961ECF1CC0007736EF = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22788F821ECF1CC0007736EF;
+					};
+					22788F9F1ECF1CC0007736EF = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					22788FAE1ECF1CC1007736EF = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 22788F7E1ECF1CC0007736EF /* Build configuration list for PBXProject "tonememo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22788F7A1ECF1CC0007736EF;
+			productRefGroup = 22788F841ECF1CC0007736EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22788F821ECF1CC0007736EF /* tonememo */,
+				22788F961ECF1CC0007736EF /* tonememoTests */,
+				22788F9F1ECF1CC0007736EF /* tonememo WatchKit App */,
+				22788FAE1ECF1CC1007736EF /* tonememo WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22788F811ECF1CC0007736EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22788F911ECF1CC0007736EF /* LaunchScreen.storyboard in Resources */,
+				22788F8E1ECF1CC0007736EF /* Assets.xcassets in Resources */,
+				22788F8C1ECF1CC0007736EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22788F951ECF1CC0007736EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22788F9E1ECF1CC0007736EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22788FA91ECF1CC0007736EF /* Assets.xcassets in Resources */,
+				22788FA71ECF1CC0007736EF /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22788FAD1ECF1CC1007736EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22788FBD1ECF1CC1007736EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22788F7F1ECF1CC0007736EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22788F891ECF1CC0007736EF /* ViewController.swift in Sources */,
+				22788F871ECF1CC0007736EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22788F931ECF1CC0007736EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22788F9C1ECF1CC0007736EF /* tonememoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22788FAB1ECF1CC1007736EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22788FBB1ECF1CC1007736EF /* NotificationController.swift in Sources */,
+				22788FB91ECF1CC1007736EF /* ExtensionDelegate.swift in Sources */,
+				22788FB71ECF1CC1007736EF /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22788F991ECF1CC0007736EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22788F821ECF1CC0007736EF /* tonememo */;
+			targetProxy = 22788F981ECF1CC0007736EF /* PBXContainerItemProxy */;
+		};
+		22788FA31ECF1CC0007736EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22788F9F1ECF1CC0007736EF /* tonememo WatchKit App */;
+			targetProxy = 22788FA21ECF1CC0007736EF /* PBXContainerItemProxy */;
+		};
+		22788FB21ECF1CC1007736EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22788FAE1ECF1CC1007736EF /* tonememo WatchKit Extension */;
+			targetProxy = 22788FB11ECF1CC1007736EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22788F8A1ECF1CC0007736EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22788F8B1ECF1CC0007736EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22788F8F1ECF1CC0007736EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22788F901ECF1CC0007736EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		22788FA51ECF1CC0007736EF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22788FA61ECF1CC0007736EF /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22788FBF1ECF1CC1007736EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22788FC01ECF1CC1007736EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22788FC21ECF1CC1007736EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "tonememo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hickory.ca.tonememo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		22788FC31ECF1CC1007736EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "tonememo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hickory.ca.tonememo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		22788FC61ECF1CC1007736EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = tonememo_WatchKit_Extension;
+				INFOPLIST_FILE = "tonememo WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hickory.ca.tonememo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		22788FC71ECF1CC1007736EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = tonememo_WatchKit_Extension;
+				INFOPLIST_FILE = "tonememo WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hickory.ca.tonememo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		22788FCA1ECF1CC1007736EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CT3Y8HLWZY;
+				INFOPLIST_FILE = tonememo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hickory.ca.tonememo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		22788FCB1ECF1CC1007736EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CT3Y8HLWZY;
+				INFOPLIST_FILE = tonememo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hickory.ca.tonememo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		22788FCD1ECF1CC1007736EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tonememoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hickory.ca.tonememoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tonememo.app/tonememo";
+			};
+			name = Debug;
+		};
+		22788FCE1ECF1CC1007736EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tonememoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hickory.ca.tonememoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tonememo.app/tonememo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22788F7E1ECF1CC0007736EF /* Build configuration list for PBXProject "tonememo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22788FBF1ECF1CC1007736EF /* Debug */,
+				22788FC01ECF1CC1007736EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22788FC11ECF1CC1007736EF /* Build configuration list for PBXNativeTarget "tonememo WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22788FC21ECF1CC1007736EF /* Debug */,
+				22788FC31ECF1CC1007736EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22788FC51ECF1CC1007736EF /* Build configuration list for PBXNativeTarget "tonememo WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22788FC61ECF1CC1007736EF /* Debug */,
+				22788FC71ECF1CC1007736EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22788FC91ECF1CC1007736EF /* Build configuration list for PBXNativeTarget "tonememo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22788FCA1ECF1CC1007736EF /* Debug */,
+				22788FCB1ECF1CC1007736EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22788FCC1ECF1CC1007736EF /* Build configuration list for PBXNativeTarget "tonememoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22788FCD1ECF1CC1007736EF /* Debug */,
+				22788FCE1ECF1CC1007736EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22788F7B1ECF1CC0007736EF /* Project object */;
+}
