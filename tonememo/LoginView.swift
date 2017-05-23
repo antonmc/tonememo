@@ -15,7 +15,8 @@ class LoginView: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    // MARK: unwind segue 
+    @IBAction func unwindToLogin(segue: UIStoryboardSegue) {}
     
 
 }
