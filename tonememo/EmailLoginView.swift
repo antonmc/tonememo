@@ -16,9 +16,9 @@ class EmailLoginView: UIViewController {
 
     }
     
-    @IBOutlet weak var emailLoginText: LoginTextField!
-    @IBOutlet weak var passwordText: LoginTextField!
-    @IBOutlet weak var lostEmailText: LoginTextField!
+    @IBOutlet weak var emailLoginText: LoginTextFieldStyle!
+    @IBOutlet weak var passwordText: LoginTextFieldStyle!
+    @IBOutlet weak var lostEmailText: LoginTextFieldStyle!
     
 
     // MARK: authenticate user with email + password OR create new user account with email + password

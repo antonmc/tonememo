@@ -8,13 +8,13 @@ target 'tonememo' do
   platform :ios, '9.0'
 
   # Pods for tonememo
-  pod 'Firebase/Storage'
   pod 'Firebase/Core'
   pod 'Firebase/Database'
-  pod 'Firebase/RemoteConfig'
-  pod 'FirebaseUI'
-  pod 'FirebaseUI/Auth'
-  pod 'FirebaseUI/Google'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Auth'
+  pod 'FacebookCore'
+  pod 'FacebookLogin'
+
 
   target 'tonememoTests' do
     inherit! :search_paths
