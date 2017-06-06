@@ -22,6 +22,7 @@
 		22788FBB1ECF1CC1007736EF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22788FBA1ECF1CC1007736EF /* NotificationController.swift */; };
 		22788FBD1ECF1CC1007736EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22788FBC1ECF1CC1007736EF /* Assets.xcassets */; };
 		3CF75E696C90B58439A1CA32 /* Pods_tonememo_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16CA7A4A971AFF60627E1F34 /* Pods_tonememo_WatchKit_App.framework */; };
+		7906C02B1EE70A840012C96B /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906C02A1EE70A840012C96B /* ForgotPasswordView.swift */; };
 		7990A94D1ECF941000BFD541 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7990A94C1ECF941000BFD541 /* GoogleService-Info.plist */; };
 		79B9542E1ED4C324008FF040 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9542D1ED4C324008FF040 /* RecordView.swift */; };
 		79DA64131ED355EF007B65F4 /* LoginButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA64121ED355EF007B65F4 /* LoginButtonStyle.swift */; };
@@ -113,6 +114,7 @@
 		6D59954D122C2BB5315A0CF3 /* Pods-tonememoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tonememoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tonememoTests/Pods-tonememoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7343C808A44384B2802313A0 /* Pods-tonememo WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tonememo WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tonememo WatchKit App/Pods-tonememo WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 		7418DEA74720812C79002D0B /* Pods_tonememoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tonememoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7906C02A1EE70A840012C96B /* ForgotPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		7990A94C1ECF941000BFD541 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		79B9542D1ED4C324008FF040 /* RecordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 		79DA64121ED355EF007B65F4 /* LoginButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginButtonStyle.swift; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 			children = (
 				22788F881ECF1CC0007736EF /* LoginView.swift */,
 				79DA64171ED37167007B65F4 /* EmailLoginView.swift */,
+				7906C02A1EE70A840012C96B /* ForgotPasswordView.swift */,
 				79B9542D1ED4C324008FF040 /* RecordView.swift */,
 				79DA64111ED35597007B65F4 /* Styles */,
 			);
@@ -671,6 +674,7 @@
 				79DA64161ED35680007B65F4 /* Constants.swift in Sources */,
 				79DA64181ED37167007B65F4 /* EmailLoginView.swift in Sources */,
 				79DA641C1ED3781E007B65F4 /* LoginTextFieldStyle.swift in Sources */,
+				7906C02B1EE70A840012C96B /* ForgotPasswordView.swift in Sources */,
 				79EA51B91ED48C950084DF36 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -18,6 +18,10 @@ class LoginView: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     // MARK: authenticate app with Facebook
     @IBAction func facebookButtonTapped(_ sender: UIButton) {
         
@@ -25,17 +29,19 @@ class LoginView: UIViewController {
         facebookLogin.logIn([.publicProfile], viewController: self) { result in
             switch result {
             case .failed(let error):
-                print(error)
+                print(error) // TODO: include user notification that login via facebook failed
             case .cancelled:
-                print("User cancelled login.")
+                print("User cancelled login.") // TODO: include user notification that login via facebook was cancelled by user
             case .success(let grantedPermissions, let declinedPermissions, let accessToken):
-                print("Logged in!")
+                // important
                 let credential = FacebookAuthProvider.credential(withAccessToken: accessToken.authenticationToken)
+                self.firebaseAuth(credential)
+                
+                // not important
                 let allowed = grantedPermissions.description
                 let notAllowed = declinedPermissions.description
                 print(allowed)
                 print(notAllowed)
-                self.firebaseAuth(credential)
             }
         }
       }
@@ -48,22 +54,34 @@ class LoginView: UIViewController {
                 // alert user that firebase authentication failed
             } else {
                 // firebase authentication successful => post user in firebase database
-                let userData = ["provider": user?.providerID]
-                DataService.ds.createFirebaseDBUser(uid: (user?.uid)!, userData: userData as! Dictionary<String, String>)
+                if let user = user {
+                    let userData = ["provider": user.providerID]
+                    self.completeSignIn(id: user.uid, userData: userData)
+                }
+                
             }
         })
     }
     
     @IBAction func twitterButtonTapped(_ sender: UIButton) {
+        // TODO: autheticate user via twitter
     }
     
     
     @IBAction func phoneButtonTapped(_ sender: UIButton) {
+        // TODO: autheticate user via phone
     }
 
     // MARK: unwind segue 
-    @IBAction func unwindToLogin(segue: UIStoryboardSegue) {}
+    @IBAction func unwindToLogin(segue: UIStoryboardSegue) {
+        // unwind back to this view
+    }
     
+    // MARK: function to complete the signin process :: post new user in firebase database and segue to RecordView
+    func completeSignIn(id: String, userData: Dictionary<String, String>) {
+        DataService.ds.createFirebaseDBUser(uid: id, userData: userData)
+        performSegue(withIdentifier: "loginSegue", sender: nil)
+    }
 
 }
 

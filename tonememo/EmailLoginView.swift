@@ -16,9 +16,13 @@ class EmailLoginView: UIViewController {
 
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     @IBOutlet weak var emailLoginText: LoginTextFieldStyle!
     @IBOutlet weak var passwordText: LoginTextFieldStyle!
-    @IBOutlet weak var lostEmailText: LoginTextFieldStyle!
+
     
 
     // MARK: authenticate user with email + password OR create new user account with email + password
@@ -110,9 +114,14 @@ class EmailLoginView: UIViewController {
         return returnValue
     }
 
-    // MARK: function to complete the signin process :: post new user in firebase database and segue to DetailView
+    // MARK: function to complete the signin process :: post new user in firebase database and segue to RecordView
     func completeSignIn(id: String, userData: Dictionary<String, String>) {
         DataService.ds.createFirebaseDBUser(uid: id, userData: userData)
         performSegue(withIdentifier: "emailSuccessSegue", sender: nil)
+    }
+    
+    // MARK: unwind segue
+    @IBAction func unwindToEmail(segue: UIStoryboardSegue) {
+        // unwind back to this view
     }
 }
