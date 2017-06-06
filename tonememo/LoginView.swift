@@ -63,10 +63,6 @@ class LoginView: UIViewController {
         })
     }
     
-    @IBAction func twitterButtonTapped(_ sender: UIButton) {
-        // TODO: autheticate user via twitter
-    }
-    
     
     @IBAction func phoneButtonTapped(_ sender: UIButton) {
         // TODO: autheticate user via phone
