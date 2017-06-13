@@ -21,6 +21,10 @@
 		22788FB91ECF1CC1007736EF /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22788FB81ECF1CC1007736EF /* ExtensionDelegate.swift */; };
 		22788FBB1ECF1CC1007736EF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22788FBA1ECF1CC1007736EF /* NotificationController.swift */; };
 		22788FBD1ECF1CC1007736EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22788FBC1ECF1CC1007736EF /* Assets.xcassets */; };
+		22B166921EF0670300A1FC33 /* tonememo.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B166911EF0670300A1FC33 /* tonememo.png */; };
+		22B166941EF0734100A1FC33 /* archive.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B166931EF0734100A1FC33 /* archive.png */; };
+		22B166961EF0764300A1FC33 /* recording.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B166951EF0764300A1FC33 /* recording.png */; };
+		22B166981EF076C000A1FC33 /* navigation.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B166971EF076C000A1FC33 /* navigation.png */; };
 		3CF75E696C90B58439A1CA32 /* Pods_tonememo_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16CA7A4A971AFF60627E1F34 /* Pods_tonememo_WatchKit_App.framework */; };
 		7906C02B1EE70A840012C96B /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906C02A1EE70A840012C96B /* ForgotPasswordView.swift */; };
 		7990A94D1ECF941000BFD541 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7990A94C1ECF941000BFD541 /* GoogleService-Info.plist */; };
@@ -108,6 +112,10 @@
 		22788FBA1ECF1CC1007736EF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		22788FBC1ECF1CC1007736EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22788FBE1ECF1CC1007736EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B166911EF0670300A1FC33 /* tonememo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tonememo.png; sourceTree = "<group>"; };
+		22B166931EF0734100A1FC33 /* archive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = archive.png; sourceTree = "<group>"; };
+		22B166951EF0764300A1FC33 /* recording.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recording.png; sourceTree = "<group>"; };
+		22B166971EF076C000A1FC33 /* navigation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigation.png; sourceTree = "<group>"; };
 		4072BCE8B30F561801303CB0 /* Pods-tonememo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tonememo.release.xcconfig"; path = "Pods/Target Support Files/Pods-tonememo/Pods-tonememo.release.xcconfig"; sourceTree = "<group>"; };
 		69ADCA2B5128BFF1C0440448 /* Pods-tonememo WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tonememo WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-tonememo WatchKit App/Pods-tonememo WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 		6B2755F9FBA886A5816FEB29 /* Pods-tonememo WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tonememo WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tonememo WatchKit Extension/Pods-tonememo WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,6 +201,7 @@
 		22788F851ECF1CC0007736EF /* tonememo */ = {
 			isa = PBXGroup;
 			children = (
+				22B166901EF066ED00A1FC33 /* images */,
 				22788F8A1ECF1CC0007736EF /* Main.storyboard */,
 				22788F8F1ECF1CC0007736EF /* LaunchScreen.storyboard */,
 				22788F861ECF1CC0007736EF /* AppDelegate.swift */,
@@ -245,6 +254,17 @@
 				22788FB51ECF1CC1007736EF /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22B166901EF066ED00A1FC33 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				22B166971EF076C000A1FC33 /* navigation.png */,
+				22B166951EF0764300A1FC33 /* recording.png */,
+				22B166931EF0734100A1FC33 /* archive.png */,
+				22B166911EF0670300A1FC33 /* tonememo.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 		79DA640F1ED34E2D007B65F4 /* View */ = {
@@ -461,8 +481,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				22788F911ECF1CC0007736EF /* LaunchScreen.storyboard in Resources */,
+				22B166981EF076C000A1FC33 /* navigation.png in Resources */,
 				7990A94D1ECF941000BFD541 /* GoogleService-Info.plist in Resources */,
+				22B166941EF0734100A1FC33 /* archive.png in Resources */,
 				22788F8E1ECF1CC0007736EF /* Assets.xcassets in Resources */,
+				22B166961EF0764300A1FC33 /* recording.png in Resources */,
+				22B166921EF0670300A1FC33 /* tonememo.png in Resources */,
 				22788F8C1ECF1CC0007736EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
