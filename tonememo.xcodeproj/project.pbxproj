@@ -449,10 +449,12 @@
 					};
 					22788F9F1ECF1CC0007736EF = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = CT3Y8HLWZY;
 						ProvisioningStyle = Automatic;
 					};
 					22788FAE1ECF1CC1007736EF = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = CT3Y8HLWZY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -871,6 +873,7 @@
 			baseConfigurationReference = 6B2755F9FBA886A5816FEB29 /* Pods-tonememo WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = CT3Y8HLWZY;
 				INFOPLIST_FILE = "tonememo WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.hickory.ca.tonememo.watchkitapp.watchkitextension;
@@ -888,6 +891,7 @@
 			baseConfigurationReference = 9E784E8C01AB9AFC0B1897CD /* Pods-tonememo WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = CT3Y8HLWZY;
 				INFOPLIST_FILE = "tonememo WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.hickory.ca.tonememo.watchkitapp.watchkitextension;
@@ -906,6 +910,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CT3Y8HLWZY;
 				IBSC_MODULE = tonememo_WatchKit_Extension;
 				INFOPLIST_FILE = "tonememo WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = org.hickory.ca.tonememo.watchkitapp;
@@ -924,6 +929,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CT3Y8HLWZY;
 				IBSC_MODULE = tonememo_WatchKit_Extension;
 				INFOPLIST_FILE = "tonememo WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = org.hickory.ca.tonememo.watchkitapp;
