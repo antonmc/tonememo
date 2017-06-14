@@ -18,7 +18,7 @@ class LoginButtonStyle: UIButton {
 //        layer.shadowRadius = 5.0
 //        layer.shadowOffset = CGSize(width: 1.0, height: 1.0)
         layer.cornerRadius = 6.0
-//        layer.borderWidth = 0.25
+        //        layer.borderWidth = 0.25
 //        layer.borderColor = UIColor(red: 0, green: 0, blue: 80/255, alpha: 1).cgColor
     }
 
